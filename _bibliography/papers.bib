@@ -1,0 +1,125 @@
+---
+---
+
+@article{kumru2021variational,
+  abbr={SPL},
+  title={Variational Measurement Update for Extended Object Tracking Using Gaussian Processes},
+  author={Kumru, Murat and K{\"o}ksal, Hilal and {\"O}zkan, Emre},
+  journal={IEEE Signal Processing Letters},
+  volume={28},
+  pages={538--542},
+  year={2021},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9357970},
+  pdf={https://www.techrxiv.org/ndownloader/files/26489837/1},
+  abstract={We present an alternative inference framework for the Gaussian process-based extended object tracking (GPEOT) models. The method provides an approximate solution to the Bayesian filtering problem in GPEOT by relying on a new measurement update, which we derive using variational Bayes techniques. The resulting algorithm effectively computes approximate posterior densities of the kinematic and the extent states. We conduct various experiments on simulated and real data and examine the performance compared with a reference method, which employs an extended Kalman filter for inference. The proposed algorithm significantly improves the accuracy of both the kinematic and the extent estimates and proves robust against model uncertainties.},
+  selected={true}
+}
+
+@article{kumru2021three,
+  abbr={TAES},
+  title={Three-Dimensional Extended Object Tracking and Shape Learning Using Gaussian Processes},
+  author={Kumru, Murat and {\"O}zkan, Emre},
+  journal={IEEE Transactions on Aerospace and Electronics},
+  year={2021},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9382878},
+  pdf={https://arxiv.org/pdf/1909.11358},
+  abstract={In this study, we investigate the problem of tracking objects with unknown shapes using three-dimensional (3D) point cloud data. We propose a Gaussian process-based model to jointly estimate object kinematics, including position, orientation and velocities, together with the shape of the object for online and offline applications. We describe the unknown shape by a radial function in 3D, and induce a correlation structure via a Gaussian process. Furthermore, we propose an efficient algorithm to reduce the computational complexity of working with 3D data. This is accomplished by casting the tracking problem into projection planes which are attached to the object's local frame. The resulting algorithms can process 3D point cloud data and accomplish tracking of a dynamic object. Furthermore, they provide analytical expressions for the representation of the object shape in 3D, together with confidence intervals. The confidence intervals, which quantify the uncertainty in the shape estimate, can later be used for solving the gating and association problems inherent in object tracking. The performance of the methods is demonstrated both on simulated and real data. The results are compared with an existing random matrix model, which is commonly used for extended object tracking in the literature.},
+  selected={true}
+}
+
+@article{kumru2020comments,
+  abbr={Arxiv},
+  title={Comments on ``Spatio-Temporal Gaussian Process Models for Extended and Group Object Tracking with Irregular Shapes"},
+  author={Kumru, Murat and {\"O}zkan, Emre},
+  journal={arXiv preprint arXiv:2002.08065},
+  year={2020},
+  html={https://arxiv.org/abs/2002.08065},
+  pdf={https://arxiv.org/pdf/2002.08065},
+  abstract={In the study "Spatio-temporal Gaussian process models for extended and group object tracking with irregular shapes" (IEEE Trans. Veh. Tech., vol. 68, no. 3, pp. 2137-2151, Mar. 2019), the extended object tracking problem was tackled by an approach based on spatio-temporal Gaussian processes (STGP). The performance of the proposed STGP-based trackers was comparatively evaluated through simulations and real data together with another state-of-the-art method (referred to as GP-EKF) proposed in "Extended target tracking using Gaussian processes" (IEEE Trans. Signal Process., vol. 63, no. 16, pp. 4165-4178, Aug. 2015). Unfortunately, we recognized that there are major errors in the implementation of the experiments presented in the STGP paper, which led to incorrect performance evaluation results. In this correspondence, our aim is to share the correct results of these experiments and to respond to some claims regarding GP-EKF, which we believe, would contribute to a better understanding of the methods.}
+}
+
+@inproceedings{tuncer2019extended,
+  abbr={FUSION},
+  title={Extended Target Tracking and Classification Using Neural Networks},
+  author={Tuncer, Barkın and Kumru, Murat and {\"O}zkan, Emre},
+  booktitle={International Conference on Information Fusion},
+  pages={1--8},
+  year={2019},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/9011255},
+  pdf={https://arxiv.org/pdf/2002.05462},
+  abstract={Extended target/object tracking (ETT) problem involves tracking objects which potentially generate multiple measurements at a single sensor scan. State-of-the-art ETT algorithms can efficiently exploit the available information in these measurements such that they can track the dynamic behaviour of objects and learn their shapes simultaneously. Once the shape estimate of an object is formed, it can naturally be utilized by high-level tasks such as classification of the object type. In this work, we propose to use a naively deep neural network, which consists of one input, two hidden and one output layers, to classify dynamic objects regarding their shape estimates. The proposed method shows superior performance in comparison to a Bayesian classifier for simulation experiments.}
+}
+
+@inproceedings{kumru20183d,
+  abbr={FUSION},
+  title={3D Extended Object Tracking Using Recursive Gaussian Processes},
+  author={Kumru, Murat and {\"O}zkan, Emre},
+  booktitle={International Conference on Information Fusion},
+  pages={1--8},
+  year={2018},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/8455480},
+  abstract={In this study, we consider the challenging task of tracking dynamic 3D objects with unknown shapes by using sparse point cloud measurements gathered from the surface of the objects. We propose a Gaussian process based algorithm that is capable of tracking the dynamic behavior of the object and learn its shape in 3D simultaneously. Our solution does not require any parametric model assumption for the unknown shape. The shape of the objects is learned online via a Gaussian process. The proposed method can jointly estimate the position, orientation, and the shape of the object. The inference is performed by an extended Kalman filter which is suitable for online real-time applications. Lastly, we demonstrate the initial results of a promising approach, which aims at reducing the computational complexity.}
+}
+
+@inproceedings{tuncer2018extended,
+  abbr={FUSION},
+  title={Extended Object Tracking and Shape Classification},
+  author={Tuncer, Barkın and Kumru, Murat and Özkan, Emre and Alatan, A Aydın},
+  booktitle={International Conference on Information Fusion},
+  pages={1--5},
+  year={2018},
+  organization={IEEE},
+  abstract={Recent extended target tracking algorithms provide reliable shape estimates while tracking objects. The estimated extent of the objects can also be used for online classification. In this work, we propose to use a Bayesian classifier to identify different objects based on their contour estimates during tracking. The proposed method uses the uncertainty information provided by the estimation covariance of the tracker.},
+  html={https://ieeexplore.ieee.org/abstract/document/8455464}
+}
+
+@inproceedings{erunsal2017approach,
+  abbr={ICCAS},
+  title={An Approach for System Identification in Unmanned Surface Vehicles},
+  author={Erünsal, İzzet Kağan and Ahıska, Kenan and Kumru, Murat and Leblebicioğlu, Mehmet Kemal},
+  booktitle={International Conference on Control, Automation and Systems (ICCAS)},
+  pages={194--199},
+  year={2017},
+  organization={IEEE},
+  abstract={In this study, a system identification methodology is introduced to determine the model parameters of unmanned surface vehicles. The proposed identification scheme is based on sequencing the experiments according to their capabilities to identify the model parameters. In each experiment, the parameters to be found are updated and the results are validated before ascertaining the final value. A procedure to complete the identification work in an experiment, namely the required post-processing, the optimization routines, the cost function evaluations are defined and discussed. The final parameter set is validated in random motion tests with rich motion content. It has been observed that the proposed method elicits a parameter identification with remarkable success.},
+  html={https://ieeexplore.ieee.org/abstract/document/8204440}
+}
+
+@inproceedings{kumru2017mobility,
+  abbr={ICITE},
+  title={Mobility-on-demand Scenarios Relying on Lightweight Autonomous and Connected Vehicles for Large Pedestrian Areas and Intermodal Hubs},
+  author={Kumru, Murat and Debada, Ezequiel and Makarem, Laleh and Gillet, Denis},
+  booktitle={International Conference on Intelligent Transportation Engineering (ICITE)},
+  pages={178--183},
+  year={2017},
+  organization={IEEE},
+  abstract={This paper presents Mobility-On-Demand (MoD) scenarios relying on lightweight autonomous and connected vehicles to ease commuting in large pedestrian areas and intermodal hubs. In particular, we discuss the case of the EPFL campus as an example of a large pedestrian area and the case of the main Zurich train station as an example of a large intermodal hub. These two scenarios help to investigate the potential benefits and the implementation challenges of innovative lightweight autonomous and connected vehicles combining indoor and outdoor modalities. They also highlight the need to further develop the integration of mobile apps and transportation means for a broader adoption of alternative commuting behaviors. A detailed review of the state of the art is included. It presents current initiatives and solutions related to MoD services.},
+  html={https://ieeexplore.ieee.org/abstract/document/8056904}
+}
+
+@inproceedings{kumru2016survey,
+  abbr={ICARCV},
+  title={A Survey on Tactical Control Algorithms for Path Tracking Unmanned Surface Vehicles},
+  author={Kumru, Murat and Leblebicioğlu, Kemal and Erünsal, İzzet Kağan and Ahıska, Kenan},
+  booktitle={International Conference on Control, Automation, Robotics and Vision (ICARCV)},
+  pages={1--6},
+  year={2016},
+  organization={IEEE},
+  abstract={In this study, a survey on control allocation algorithms in tactical level control for path tracking unmanned surface vehicles (USV) is conducted. The strategic goal in the path tracking problem is to assist navigation solution of an unmanned underwater vehicle (UUV). USV with the help of its onboard acoustic sensors, tracks UUV according to constant bearing guidance rule. The survey on tactical controllers comprises comparisons of tracking performances of USVs under proportional-integral-derivative, pole placement, feedback linearization and sliding mode controllers according to the strategic goal. The parameters of the controllers are tuned with a common elitist genetic algorithm optimization infrastructure. The disturbance rejection capabilities of the controllers are discussed through Monte Carlo simulations of USVs within various wave disturbances as well.},
+  html={https://ieeexplore.ieee.org/abstract/document/7838568}
+}
+
+@article{kumru2015thesis,
+  abbr={Thesis},
+  title={Navigation and Control of an Unmanned Sea Surface Vehicle},
+  author={Kumru, Murat},
+  journal={Master's Thesis, Middle East Technical University},
+  year={2015},
+  abstract={In this study, navigation and control algorithms for unmanned sea surface vehicles are investigated. For this purpose, firstly the mathematical model of a sea surface vehicle with two propellers providing stable maneuvering capabilities is constructed considering Newton-Euler equations. The next phase is to design a suitable navigation algorithm which integrates the solutions of “Inertial Navigation System (INS)” and external aids such as “Global Navigation Satellite System (GNSS)” and magnetometer. At this step, different loosely coupled integration algorithms are developed, and their performances are compared. After that, a model boat is assembled with necessary electrical equipment and driving system as a test platform for the navigation implementations. The results of the navigation algorithm obtained by processing real data collected from the model boat are presented. Meanwhile, the corrected navigation solution is also utilized within a parallel independent study aiming to identify the real parameters of the mathematical model of the boat. Finally, the design of various autopilot algorithms is studied taking the improved mathematical model into account. LQR and “Feedback Linearization” based controllers are realized for this job. The results of the controllers are provided and compared.},
+  html={http://catalog.library.metu.edu.tr/search~S4/a?kumru+murat},
+  pdf={http://etd.lib.metu.edu.tr/upload/12619110/index.pdf}
+}
