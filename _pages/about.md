@@ -28,7 +28,7 @@ I am particularly interested in applying probabilistic machine learning methods 
 <br>
 ```  
 
-  I am currently looking for a Postdoc position.
+  I am currently looking for a postdoctoral position.
   If you are interested, please drop an email at mkumruee [at] gmail [dot] com.
 
 ```
